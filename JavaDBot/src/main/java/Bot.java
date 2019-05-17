@@ -19,6 +19,6 @@ public class Bot extends ListenerAdapter {
 	@Override
 	public void onMessageReceived(MessageReceivedEvent e) {
 		System.out.println("Someone sent a message.");
-		e.getChannel().sendMessage("wwww");
+		e.getChannel().sendMessage("wweeww");
 	}
 }
