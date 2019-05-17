@@ -27,7 +27,7 @@ public class Bot extends ListenerAdapter {
         Member member = event.getMember();
         String nickname = member.getNickname();
         Role role = event.getGuild().getPublicRole();
-        TextChannel textChannel = event.getGuild().getTextChannelsByName("CHANNEL_NAME",true).get(0);
+        TextChannel textChannel = event.getGuild().getTextChannelsByName("general",true).get(0);
         textChannel.sendMessage("MESSAGE").queue();
         //that is the most needed part, I believe
 	}
