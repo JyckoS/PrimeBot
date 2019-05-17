@@ -20,5 +20,6 @@ public class Bot extends ListenerAdapter {
 	public void onMessageReceived(MessageReceivedEvent e) {
 		System.out.println("Someone sent a message.");
 		e.getChannel().sendMessage("wweeww");
+		System.out.println("" + e.getMessageId() + e.getMessage());
 	}
 }
